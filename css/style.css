@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  color:#333333;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+}
+
+.section-navigation{
+  font-weight: bold;
+  line-height: 26px;
+}
+.list-navigation{
+  list-style: none;
+}
+
+.list-navigation a{
+  color: #000000;
+}
+
+.list-navigation a:focus,
+.list-navigation a:hover{
+  color:#81b3d2
+}
+
+.list-navigation a:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-header{
+  text-align: center;
+}
+
+.main-header h1{
+  color:#000000;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+}
+
+.reasons-text{
+  background-color: #81b3d2;
+  color: #ffffff;
+  text-align: center;
+}
+.reasons-text h2{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.list-benefits{
+  text-align: center;
+}
+
+.list-benefits h2{
+  font-size: 21px;
+  color: #000000;
+}
+
+.list-reasons {
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.item-reasons h2{
+  font-weight: bold;
+  font-size: 21px;
+  color: #000000;
+}
+
+.booking-info{
+  text-align: center;
+  line-height: 24px;
+}
+
+.booking-info h2{
+  color:#000000;
+}
+
+.button {
+  font:inherit;
+
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color:#ffffff;
+  text-transform: uppercase;
+  
+  background-color:#766357;
+  border:none;
+}
+
+.booking-date .button-open:hover,
+.booking-date .button-open:focus {
+  background-color: #604e43;
+}
+
+.booking-date .button-open:active{
+  background-color:#503e33;
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.booking-item label{
+  color:#000000;
+  line-height: 26px;
+  text-align: left;
+}
+
+.booking-item input{
+  font: inherit;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.button-find{
+  background-color:#81b3d2
+}
+
+.button-find:hover,
+.button-find:focus{
+  background-color:#669ec0;
+}
+
+.button-find:active{
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.container-footer {
+  opacity: 0.9;
+  text-align: center;
+}
+
+.container-footer p{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.list-socials{
+  list-style:none;
+}
+
+.list-socials img{
+  background-color:#81b3d2;
+}
+
+.list-socials img:hover,
+.list-socials img:focus{
+  background-color:#669ec0;
+}
+
+.list-socials img:active{
+  background-color: #5496bd;
+  opacity: 0.3;
+}
+
+.logo-htmlacademy path:hover,
+.logo-htmlacademy path:focus{
+  fill:#81b3d2;
+}
+
+.logo-htmlacademy path:active{
+  color:#bdbbbc;
+}
+
+.logo-htmlacademy span{
+  vertical-align: middle;
+}
